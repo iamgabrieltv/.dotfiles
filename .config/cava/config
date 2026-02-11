@@ -104,8 +104,8 @@ gradient_color_8 = '#f38ba8'
 ; method = pulse
 ; source = auto
 
-; method = pipewire
-; source = auto
+method = pipewire
+source = auto
 
 ; method = alsa
 ; source = hw:Loopback,1
