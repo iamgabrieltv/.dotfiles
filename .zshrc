@@ -24,6 +24,8 @@ plugins=(git fzf extract)
 
 source $ZSH/oh-my-zsh.sh
 
+source /usr/share/nvm/init-nvm.sh
+
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
 	command yazi "$@" --cwd-file="$tmp"
