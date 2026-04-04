@@ -42,3 +42,10 @@ alias config="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 fastfetch
 
 export PATH=$PATH:/home/gabriel/.spicetify
+
+# bun completions
+[ -s "/home/gabriel/.bun/_bun" ] && source "/home/gabriel/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
